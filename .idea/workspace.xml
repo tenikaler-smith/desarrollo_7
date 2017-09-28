@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ca83612-0cae-41c6-8d89-7c48fc57753a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab4/lab40.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab4/lab43.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab7/lab73.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab7/class_lib.php" afterPath="$PROJECT_DIR$/lab7/class_lib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parcial/parcial1.php" afterPath="$PROJECT_DIR$/parcial/parcial1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +36,8 @@
       <file leaf-file-name="parcial1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parcial/parcial1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+            <state relative-caret-position="382">
+              <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding>
                 <marker date="1506564477546" expanded="true" signature="602:628" ph="..." />
                 <marker date="1506564477546" expanded="true" signature="876:903" ph="..." />
@@ -112,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,7 +124,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -164,11 +159,12 @@
       <workItem from="1506536235035" duration="7134000" />
       <workItem from="1506556246516" duration="7021000" />
       <workItem from="1506572607688" duration="12000" />
+      <workItem from="1506575431186" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23304000" />
+    <option name="totallyTimeSpent" value="23355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="455" y="1" width="918" height="774" extended-state="0" />
@@ -206,6 +202,47 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab4/lab40.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4/lab43.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4/lab42.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parcial/parcial1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <marker date="1506564477546" expanded="true" signature="602:628" ph="..." />
+            <marker date="1506564477546" expanded="true" signature="876:903" ph="..." />
+            <marker date="1506564477546" expanded="true" signature="1186:1213" ph="..." />
+            <marker date="1506564477546" expanded="true" signature="1469:1493" ph="..." />
+            <marker date="1506564477546" expanded="true" signature="1747:1771" ph="..." />
+            <marker date="1506564477546" expanded="true" signature="2041:2061" ph="..." />
+            <marker date="1506564477546" expanded="true" signature="2424:2444" ph="..." />
+            <marker date="1506564477546" expanded="true" signature="2807:2831" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab4/lab40.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -407,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parcial/parcial1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        <state relative-caret-position="382">
+          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
             <marker date="1506564477546" expanded="true" signature="602:628" ph="..." />
             <marker date="1506564477546" expanded="true" signature="876:903" ph="..." />

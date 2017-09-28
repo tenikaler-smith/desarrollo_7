@@ -10,7 +10,7 @@
  IF(array_key_exists('enviar', $_POST)) {
      if ($_REQUEST['ventas'] != "") {
          $ventas = $_POST['ventas'];
-         //$ruta_img=$fila["circulo_verde"];
+        
          if ($ventas >= 80) {
              echo "<center><img src='img/circulo_verde.png' border='0' width='250' height='250'></center>";
 
