@@ -5,7 +5,6 @@
  * Date: 09/25/2017
  * Time: 19:24
  */
-
 class Cliente{
     var $nombre;
     var $numero;
@@ -47,9 +46,7 @@ class Soporte{
         echo "<br>" . $this->titulo;
         echo "<br>" . $this->precio ." (ITBM no incluido)";
         }
-
 }
-
 class Video extends Soporte{
     protected  $duracion;
 
@@ -70,8 +67,25 @@ class Juego extends Soporte{
 
     function __construct($tit, $num, $precio, $consola, $min_j, $max_j){
         parent::__construct($tit, $num, $precio);
-        $this->consola=
+        $this->consola = $consola;
+        $this->min_num_jugadores = $min_j;
+        $this->min_num_jugadores = $max_j;
     }
+    public function imprime_caracteristicas(){
+        echo "<br>Juego para: " . $this->consola;
+        parent::imprime_caracteristicas();
+        echo "<br> " . $this->imprime_jugadores_posibles();
+    }
+    public function imprime_jugadores_posibles(){
+        if ($this->min_num_jugadores == $this->max_num_jugadores) {
+            if ($this->min_num_jugadores == 1)
+                echo "<br>Para un jugador";
+            else
+                echo "<br>Para " . $this->min_num_jugadores . " jugadores";
+            } else {
+                echo "<br\>De " . $this->min_num_jugadores . " a " . $this->max_num_jugadores . " jugadores.";
+            }
+        }
 }
 ?>
 
