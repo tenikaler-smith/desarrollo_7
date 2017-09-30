@@ -3,20 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Parcial 1</title>
-    <style>
-        table.tabla{
-            border: 2em;
-            border-color: darkblue;
-            padding: 10%;
-        }
-    </style>
 </head>
 <body>
  <?PHP
       IF(array_key_exists('enviar', $_POST)) {
           if ($_REQUEST['peso'] != "" && $_REQUEST['altura'] != "") {
 
-              echo "<table class='tabla'>";
+              echo "<table border = 1>";
               $peso = $_POST['peso'];
               $altura = $_POST['altura'];
               $IMC = $peso / $altura;
