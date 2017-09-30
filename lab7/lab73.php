@@ -21,5 +21,19 @@ include("class_lib.php");
     echo "<br>" . $mivideo->imprime_caracteristicas();
 
     //Ejemplo de uso de Clase HIJA 2
-
+    $mijuego = new Juego("Pes 18", 21, 2.5, "Xbox 360", 1,2);
+    $mijuego->imprime_caracteristicas();
+    $mijuego->imprime_jugadores_posibles();
+    echo "<p>";
+    $mijuego2 = new Juego("Fifa 18", 72, 3, "PS 4", 1, 2 );
+    echo "<b>" . $mijuego2->titulo . "</b>";
+    $mijuego2->imprime_jugadores_posibles();
 ?>
+
+
+
+
+
+
+
+
