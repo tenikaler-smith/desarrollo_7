@@ -18,5 +18,7 @@ print $foo->mi_static . " value (3)<br>";
 // $foo::mi_static no es posible
 
 print Bar::$mi_static . " value (4)<br>";
+
+$bar = new Bar();
 print $bar->fooStatic() . " value (5)<br>";
 ?>

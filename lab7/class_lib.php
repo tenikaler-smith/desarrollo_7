@@ -89,7 +89,6 @@ class Juego extends Soporte{
 }
 class Foo{
     public static $mi_static = 'foo';
-
     public function staticValor(){
         return self::$mi_static;
     }
