@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ca83612-0cae-41c6-8d89-7c48fc57753a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab7/lab73.php" afterPath="$PROJECT_DIR$/lab7/lab73.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/lab7/lab73.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
-              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+              <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/lab6/lab61.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -44,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_lib.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class_lib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab7/class_lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+            <state relative-caret-position="546">
+              <caret line="93" column="5" lean-forward="false" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,6 +93,7 @@
         <option value="$PROJECT_DIR$/lab5/lab52.html" />
         <option value="$PROJECT_DIR$/lab6/lab61.php" />
         <option value="$PROJECT_DIR$/lab7/lab73.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -94,9 +104,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -179,18 +188,18 @@
       <workItem from="1506986117976" duration="3228000" />
       <workItem from="1506993088247" duration="618000" />
       <workItem from="1506995807330" duration="184000" />
-      <workItem from="1507155517028" duration="1759000" />
+      <workItem from="1507155517028" duration="2666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35122000" />
+    <option name="totallyTimeSpent" value="36029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="676" y="0" width="697" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08931186" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17914832" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -241,14 +250,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab7/lab73.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab7/lab74.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -562,7 +563,7 @@
     <entry file="file://$PROJECT_DIR$/lab7/lab73.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -570,7 +571,7 @@
     <entry file="file://$PROJECT_DIR$/lab6/lab61.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -585,8 +586,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab7/class_lib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        <state relative-caret-position="546">
+          <caret line="93" column="5" lean-forward="false" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
