@@ -7,21 +7,20 @@
 <body>
 <?php
 if(array_key_exists('mostrar', $_POST)){
-    if($_REQUEST['n']  != "")
+    if($_REQUEST['num']  != "")
     {
-        $n = $_POST['n'];
-        $i=[];
-        
-
+        $num = $_POST['num'];
+        $num = [];
         echo "<table border = 1>";
         
-        for ($i=0; $i<=$n; $i++)
+        for ($n1 =1; $n1<=20; $n1++)
         {
-            echo"<tr>";
-            for($i=0; $i<=$i; $i++)
+            echo"<tr class='#'>";
+
+            for($n2=1; $n2<=20; $n2++)
             {
-                echo "<td>", $i, "</td>";
-                $n = [$i];
+                echo "<td>", $num=[], "</td>";
+                $num[]= $num+1;
             }
             echo "</tr>";
         }
@@ -29,22 +28,22 @@ if(array_key_exists('mostrar', $_POST)){
     }
     else
     {
-        $n = "";
-        
-        if ($_REQUEST['n'] == ''){
-            $n = "Favor escribe un numero";
+        $num = "";
+        if ($_REQUEST['num'] == ''){
+            $num = "Favor escribe un numero";
         }
         
-        dibuja_formulario($n);
+        dibuja_formulario($num);
     }
 }
 
 else{
     dibuja_formulario();
 }
-function dibuja_formulario($n=""){
+function dibuja_formulario($num=""){
+    echo "<b>Despliega una matriciz de un numero impar</b><br><br>";
     echo "<form action='lab61.php' method='POST' >";
-    echo "<input type='Text' name='n' placeholder='Numero'> $n <br><br>";
+    echo "<input type='Text' name='num' placeholder='Numero...'> $num <br><br>";
     echo "<input type='submit' name='mostrar' value='Mostrar datos'>
          </from>";
 }
