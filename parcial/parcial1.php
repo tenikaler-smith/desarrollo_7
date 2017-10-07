@@ -92,6 +92,7 @@
       }
       function formulario($peso= "", $altura=""){
         echo"<form action='parcial1.php' method='POST'>";
+        echo "Mide Tu <b>INDICE CORPORAL</b> ingresando su peso y altura<br><br>";
         echo "<input type='text' name='peso' PLACEHOLDER='ingrese su peso' value=''>$peso<br><br>";
         echo "<input type='text' name='altura' placeholder='ingrese su altura' value=''>$altura<br><br>";
         echo "<input type='submit' name='enviar' value='CALCULAR'>
