@@ -13,7 +13,6 @@ class MiClase{
     const constate = 'valor constante';
     function mostrarConstante(){
         echo self::constate . "\n";
-
     }
 }
 
