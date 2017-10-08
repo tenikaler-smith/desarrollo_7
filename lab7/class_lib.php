@@ -11,8 +11,8 @@ class Cliente{
     var $peliculas_alquiladas;
 
     function __construct($nombre, $numero){
-        $this->nombre=$nombre;
-        $this->numero=$numero;
+        $this-> nombre = $nombre;
+        $this-> numero = $numero;
     }
 
     function __destruct(){
