@@ -18,7 +18,7 @@ echo "<br/> El area de cilindro es de: " . $area . " metros cubicos";
 else {
 ?>
 <!doctype html>
-<html lang="es">
+<html lang="es      ||">
 <head>
     <meta charset="UTF-8">
     <title>laboratorio 8.7</title>
