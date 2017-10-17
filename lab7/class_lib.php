@@ -87,6 +87,28 @@ class Juego extends Soporte{
             }
         }
 }
+class Foo{
+    public static $mi_static = 'foo';
+    public function staticValor(){
+        return self::$mi_static;
+    }
+}
+class Bar extends Foo{
+    public function fooStatic(){
+        return parent::$mi_static;
+    }
+}
+
+// libreria del lab8
+// aqui inserto las clases para el lab8
+
+class MiClase{
+    const constate = 'valor constante';
+    function mostrarConstante(){
+        echo self::constate . "\n";
+
+    }
+}
 ?>
 
 
