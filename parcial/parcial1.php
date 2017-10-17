@@ -19,7 +19,7 @@
               echo "<table class='tabla'>";
               $peso = $_POST['peso'];
               $altura = $_POST['altura'];
-              $IMC = $peso / $altura;
+              $IMC = ($peso / ($altura*$altura));
               echo "<thead>";
               echo "<tr style='background-color:cadetblue'>";
               echo "<th> IMC </th>";
@@ -93,8 +93,8 @@
       function formulario($peso= "", $altura=""){
         echo"<form action='parcial1.php' method='POST'>";
         echo "Mide Tu <b>INDICE CORPORAL</b> ingresando su peso y altura<br><br>";
-        echo "<input type='text' name='peso' PLACEHOLDER='ingrese su peso' value=''>$peso<br><br>";
-        echo "<input type='text' name='altura' placeholder='ingrese su altura' value=''>$altura<br><br>";
+        echo "<input type='text' name='peso' PLACEHOLDER='ingrese su peso' value='' min='0.01'>$peso<br><br>";
+        echo "<input type='text' name='altura' placeholder='ingrese su altura' value='' min='0.01'>$altura<br><br>";
         echo "<input type='submit' name='enviar' value='CALCULAR'>
       </form>";
     }
